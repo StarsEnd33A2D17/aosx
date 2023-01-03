@@ -1,14 +1,13 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
-import dts from 'vite-plugin-dts'
 
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'saos.ts'),
-      name: 'saos',
+      entry: resolve(__dirname, 'src/aosx.ts'),
+      name: 'aosx',
       // the proper extensions will be added
-      fileName: 'saos'
+      fileName: 'aosx'
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

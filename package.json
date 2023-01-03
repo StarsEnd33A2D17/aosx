@@ -1,14 +1,19 @@
 {
   "name": "aosx",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://github.com/thestarsend/aosx",
+  "description": "Action on scroll (I Observer)",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "a"
+    "url": "https://github.com/thestarsend/aosx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thestarsend/aosx/issues"
   },
   "keywords": [
     "aos"

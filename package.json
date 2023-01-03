@@ -1,0 +1,23 @@
+{
+  "name": "aosx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "keywords": [
+    "aos"
+  ],
+  "author": "StarsEnd <thestarsend@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "vite": "^4.0.3",
+    "vite-plugin-dts": "^1.7.1"
+  }
+}

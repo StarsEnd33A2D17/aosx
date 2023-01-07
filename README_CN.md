@@ -22,6 +22,7 @@ npm i aosx
 基本用例：
 ```ts
 import {AOSX} from "aosx";
+import "aosx/src/css/animation.css"
 const aosx = new AOSX();
 aosx.init();
 ```

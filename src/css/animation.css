@@ -1,0 +1,23 @@
+.aosx-init{
+
+}
+[data-aosx^='fade'] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+[data-aosx^='fade'].aosx-animate {
+    opacity: 1;
+    transform: none;
+}
+[data-aosx='fade-up'] {
+    transform: translate3d(0, v-bind(distance), 0);
+}
+
+[data-aosx^='flip-up']{
+    opacity: 0;
+    transform: perspective(2500px) rotateX(-100deg);
+}
+[data-aosx^='flip-up'].aosx-animate{
+    opacity: 1;
+    transform: perspective(2500px) rotateX(0);
+}
